@@ -1,0 +1,42 @@
+Project Name: Hands-On Exercises 3.1-3.4 (HW11)  
+Author: Paola Wollants 
+Date Last Modified: April 5, 2019
+GitHub User: PaolaMWollants
+
+1. Write HTML for a paragraph that uses inline styles to configure
+the background color of green and the text color of white
+
+<body style="background-color: green; color: white">
+
+2. White the HTML and CSS code for an embedded style sheet that configures
+a background color of #EAEAEA and a text color of #000033
+
+<head>
+  <style type= "text/css"> 
+   body {
+     background-color: #EAEAEA;
+     color: #000033
+  }
+  </style>
+</head>
+
+3. Write the CSS code for an external style sheet that configures the text 
+to be brown, 1.2em in size, and in Aria, Verdana, or a sans-serif font
+
+body {
+  color: brown;
+  font-size: 1.2em;
+  font-family: Arial,Verdana,sans-serif;
+}
+
+4. Write the HTML and CSS code for an embedded style sheet that configures
+a class called new that is bold and italic
+
+<head>
+<style type="text/css">
+   .new {
+    font-size: italic;
+    font-weight: bold;
+  }
+ </style>
+</head>
