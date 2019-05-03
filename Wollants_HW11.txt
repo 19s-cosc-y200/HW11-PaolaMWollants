@@ -8,6 +8,9 @@ the background color of green and the text color of white
 
 <body style="background-color: green; color: white">
 
+should be in hex
+should be p, not body
+
 2. White the HTML and CSS code for an embedded style sheet that configures
 a background color of #EAEAEA and a text color of #000033
 
@@ -28,6 +31,8 @@ body {
   font-size: 1.2em;
   font-family: Arial,Verdana,sans-serif;
 }
+
+should be in hex
 
 4. Write the HTML and CSS code for an embedded style sheet that configures
 a class called new that is bold and italic
